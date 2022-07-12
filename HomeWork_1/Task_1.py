@@ -1,6 +1,10 @@
 wd = int(input('Enter the number of weekday '))
-weekdays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+
 if wd < 1 or wd > 7:
     print('Wrong number!')
+elif wd==6 or wd==7:
+    print('It\'s holyday!')
 else:
-    print(weekdays[wd-1])
+    print('It\'s not holyday')
+
+    
